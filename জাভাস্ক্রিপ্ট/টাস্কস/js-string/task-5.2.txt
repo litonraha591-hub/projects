@@ -1,0 +1,4 @@
+Object is one type of function in js. When an element in js has many properties then we can use object. An object contains keys and values. We can call a obj
+ect properties using . notation and and using square bracket.
+Example- Mobile Phone . We can use mobile phone as an Object.
+It has many keys like- Brand, Price, Color, Processor, Ram etc and values like- Nokia, 12000, purple, octa-core, 8GB etc.
