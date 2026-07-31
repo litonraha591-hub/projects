@@ -1,5 +1,5 @@
 function topRatedRestaurant(restaurants) {
- console.log(restaurants)
+
  if( (typeof restaurants === "object") && (restaurants.length !== 0)){
 
 
@@ -28,11 +28,16 @@ else{
 let ratingKeyNumber;
 
 ratingKey.length = largestRatingLength;
-
-ratingKeyNumber = ratingKey.length-1
+if(ratingKey.length >0)
+{
+    ratingKeyNumber = ratingKey.length-1
+}
+else{
+    ratingKeyNumber = ratingKey.length
+}
 
 let  finalName = (brandName[ratingKeyNumber]);
-// return finalName.toUpperCase();
+return finalName.toUpperCase();
 
 
  }
@@ -42,16 +47,15 @@ let  finalName = (brandName[ratingKeyNumber]);
  }
 
 
-// console.log(topRatedRestaurant([{name:"Chillox",rating:4.5},{name:"Sultan's Dine",rating:4.9}]));
-// console.log(topRatedRestaurant([]));
-// console.log(topRatedRestaurant("I love you"));
-// console.log(topRatedRestaurant([{name:"KFC",rating:4.2},{name:"Pizza Hut",rating:4.6}]));
-// console.log(topRatedRestaurant([{name:"FFC",rating:4.8},{name:"Pizza Burg",rating:4.6}]));
-// console.log(topRatedRestaurant([{name:"FFC",rating:4.8},{name:"Pizza Burg",rating:5}]));
-// console.log(topRatedRestaurant([{name:"FFC",rating:4.8},{name:"Pizza Burg",rating:4.6}]));
-// console.log(topRatedRestaurant([{name:"KFC",rating:10},{name:"Pizzalozy",rating:4.6}]));
-console.log(topRatedRestaurant([{"name":"Burger King","rating":3.9}]))
 
+
+
+
+// console.log(topRatedRestaurant([{name:"Chillox",rating:4.5},{name:"Sultan's Dine",rating:4.8}]));
+// console.log(topRatedRestaurant([{name:"KFC",rating:4.2},{name:"Pizza Hut",rating:4.6}]))
+// console.log(topRatedRestaurant([]))
+// console.log(topRatedRestaurant("Restaurnats"))
+// console.log(topRatedRestaurant(12345))
 
 
 
