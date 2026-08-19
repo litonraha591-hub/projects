@@ -12,11 +12,3 @@ function filterActiveUsers(users) {
 
 
 
-
-// let activeUsers=
-// "users"
-
-
-
-
-// console.log(filterActiveUsers(activeUsers))

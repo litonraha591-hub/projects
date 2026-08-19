@@ -19,7 +19,3 @@ return total
     return "Invalid"
   }
 }
-let scores =[0,"10"]
-
-
-console.log(bonusScore(scores))
