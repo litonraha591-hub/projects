@@ -15,7 +15,8 @@ if(typeof caption === "string"){
      }
      
    }
- return `{ hashtagCount: ${filterHashTags.length}, longestTag: "${longsetTag}" }`
+ return {hashtagCount:filterHashTags.length, longestTag: longsetTag 
+}
 
 
 }
